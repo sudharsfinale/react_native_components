@@ -1,15 +1,38 @@
-import { Text, View } from "react-native";
+import { useRouter } from "expo-router";
+import { FlatList, Pressable, Text, View } from "react-native";
 
 export default function Index() {
+  const components = [{ componentName: "Range Slider", path: "rangeSlider" }]; //path name should match the folder name
+  const router = useRouter();
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
+        marginHorizontal: 12,
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <Text
+        style={{
+          marginVertical: 12,
+          fontWeight: "bold",
+          fontSize: 16,
+        }}
+      >
+        React Native Components
+      </Text>
+      <FlatList
+        data={components}
+        renderItem={({ item }) => {
+          return (
+            <Pressable
+              style={{ padding: 12, borderColor: "lightblue", borderWidth: 1 }}
+              onPress={() => router.push("/rangeSlider")}
+            >
+              <Text>{item.componentName}</Text>
+            </Pressable>
+          );
+        }}
+      />
     </View>
   );
 }
