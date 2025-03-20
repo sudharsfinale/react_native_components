@@ -2,7 +2,10 @@ import { useRouter } from "expo-router";
 import { FlatList, Pressable, Text, View } from "react-native";
 
 export default function Index() {
-  const components = [{ componentName: "Range Slider", path: "rangeSlider" }]; //path name should match the folder name
+  const components = [
+    { componentName: "Range Slider", path: "rangeSlider" },
+    { componentName: "Range Slider With Steps", path: "rangeSliderWithSteps" },
+  ]; //path name should match the folder name
   const router = useRouter();
   return (
     <View
@@ -26,7 +29,10 @@ export default function Index() {
           return (
             <Pressable
               style={{ padding: 12, borderColor: "lightblue", borderWidth: 1 }}
-              onPress={() => router.push("/rangeSlider")}
+              onPress={() => {
+                //@ts-ignore
+                router.push(`/${item.path}`);
+              }}
             >
               <Text>{item.componentName}</Text>
             </Pressable>

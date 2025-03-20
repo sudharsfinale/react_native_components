@@ -6,7 +6,7 @@ const RangeSliderContainer = () => {
   const [values, setValues] = useState<[number, number]>([25, 75]);
   return (
     <View>
-      <Text style={{ color: "dodgerblue", padding: 25 }}>
+      <Text style={{ color: "dodgerblue", padding: 25, fontSize: 20 }}>
         RangeSliderContainer
       </Text>
       <View
