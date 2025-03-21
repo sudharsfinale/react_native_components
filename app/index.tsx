@@ -1,3 +1,4 @@
+import ItemSeperatorComponent from "@/components/ItemSeperatorComponent";
 import { useRouter } from "expo-router";
 import { FlatList, Pressable, Text, View } from "react-native";
 
@@ -5,6 +6,7 @@ export default function Index() {
   const components = [
     { componentName: "Range Slider", path: "rangeSlider" },
     { componentName: "Range Slider With Steps", path: "rangeSliderWithSteps" },
+    { componentName: "TimeLine", path: "timeline" },
   ]; //path name should match the folder name
   const router = useRouter();
   return (
@@ -25,6 +27,7 @@ export default function Index() {
       </Text>
       <FlatList
         data={components}
+        ItemSeparatorComponent={() => <ItemSeperatorComponent />}
         renderItem={({ item }) => {
           return (
             <Pressable

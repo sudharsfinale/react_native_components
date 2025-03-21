@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { View, Text, StyleSheet, Dimensions, TextInput } from "react-native";
 import React from "react";
 import Animated, {
