@@ -107,7 +107,14 @@ const InputRange = ({ min, max, title, steps, onValueChange }) => {
     };
   });
   return (
-    <View style={{ backgroundColor: "white", flex: 1 }}>
+    <View
+      style={{
+        backgroundColor: "white",
+        flex: 1,
+        alignItems: "center",
+        marginTop: 70,
+      }}
+    >
       {/* <View style={styles.header}>
         <Text style={styles.title}>{title}</Text>
       </View> */}
@@ -168,6 +175,10 @@ const styles = StyleSheet.create({
   label: {
     color: "#333",
     fontSize: 12,
+    width: 40,
+    textAlign: "center",
+    includeFontPadding: false,
+    textAlignVertical: "center",
   },
   track: {
     height: 3,

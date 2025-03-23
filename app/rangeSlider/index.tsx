@@ -6,14 +6,16 @@ import Header from "@/components/Header";
 const RangeSliderContainer = () => {
   const [values, setValues] = useState<[number, number]>([25, 75]);
   return (
-    <View>
+    <View style={{ flex: 1, backgroundColor: "white" }}>
       <Header headerTitle="Range Slider" />
       <View
         style={{
           alignItems: "center",
+          flex: 1,
           marginVertical: 12,
           marginHorizontal: 20,
           justifyContent: "center",
+          gap: 16,
         }}
       >
         <RangeSlider
@@ -26,23 +28,32 @@ const RangeSliderContainer = () => {
           inactiveColor="#E0E0E0"
           thumbColor="#FFFFFF"
         />
-      </View>
-      <View
-        style={{
-          justifyContent: "space-between",
-          flexDirection: "row",
-          marginHorizontal: 32,
-        }}
-      >
         <View
-          style={{ borderWidth: 1, paddingHorizontal: 12, paddingVertical: 4 }}
+          style={{
+            justifyContent: "space-between",
+            flexDirection: "row",
+            marginHorizontal: 32,
+            width: "100%",
+          }}
         >
-          <Text>{values[0]}</Text>
-        </View>
-        <View
-          style={{ borderWidth: 1, paddingHorizontal: 12, paddingVertical: 4 }}
-        >
-          <Text>{values[1]}</Text>
+          <View
+            style={{
+              borderWidth: 1,
+              paddingHorizontal: 12,
+              paddingVertical: 4,
+            }}
+          >
+            <Text>{values[0]}</Text>
+          </View>
+          <View
+            style={{
+              borderWidth: 1,
+              paddingHorizontal: 12,
+              paddingVertical: 4,
+            }}
+          >
+            <Text>{values[1]}</Text>
+          </View>
         </View>
       </View>
     </View>
