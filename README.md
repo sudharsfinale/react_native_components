@@ -4,7 +4,9 @@ Home Page
 <img width="308" alt="Image" src="https://github.com/user-attachments/assets/c8e782cc-6ea3-461e-aaae-e89589a0f6e5" />
 
 Component 1
-https://github.com/user-attachments/assets/28c98605-e438-4a38-bcec-0de540e5ab52
+<video width="320" height="240" controls>
+  <source src="https://github.com/user-attachments/assets/28c98605-e438-4a38-bcec-0de540e5ab52" type="video/mp4">
+  </video>
 <img width="306" alt="Image" src="https://github.com/user-attachments/assets/b6d74335-4f5c-487b-95b8-7dae9bc1f260" />
 
 Component 2
