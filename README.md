@@ -1,7 +1,7 @@
 Welcome to this repository! Here, I am gathering amazing and complex React
 Native components, both custom-built and from libraries.
 
-<div style="display: flex;flex-direction: row ;margin-top: 12px;align-items: center;flex-wrap: wrap;">
+<div style="display: flex;flex-direction: row;margin-top: 12px;align-items: center;flex-wrap: wrap;">
   <div style="display: flex;flex-direction: column;margin-right: 12px;margin-bottom: 12px;">
     <div style="margin-bottom: 12px;">Home Page</div>
     <img
