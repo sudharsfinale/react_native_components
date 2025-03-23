@@ -1,0 +1,879 @@
+{ "data": 
+    [
+        {
+            "processed": {
+                "type": "flight-offer",
+                "id": "1",
+                "source": "GDS",
+                "instantTicketingRequired": false,
+                "nonHomogeneous": false,
+                "oneWay": false,
+                "isUpsellOffer": false,
+                "lastTicketingDate": "2025-03-23",
+                "lastTicketingDateTime": "2025-03-23",
+                "numberOfBookableSeats": 9,
+                "itineraries": [
+                    {
+                        "duration": "PT6H45M",
+                        "segments": [
+                            {
+                                "departure": {
+                                    "iataCode": "RUH",
+                                    "terminal": "3",
+                                    "at": "2025-03-23T10:05:00"
+                                },
+                                "arrival": {
+                                    "iataCode": "AUH",
+                                    "terminal": "A",
+                                    "at": "2025-03-23T12:55:00"
+                                },
+                                "carrierCode": "EY",
+                                "number": "554",
+                                "aircraft": {
+                                    "code": "32Q"
+                                },
+                                "operating": {
+                                    "carrierCode": "EY"
+                                },
+                                "duration": "PT1H50M",
+                                "id": "106",
+                                "numberOfStops": 0,
+                                "blacklistedInEU": false
+                            },
+                            {
+                                "departure": {
+                                    "iataCode": "AUH",
+                                    "terminal": "A",
+                                    "at": "2025-03-23T14:25:00"
+                                },
+                                "arrival": {
+                                    "iataCode": "DEL",
+                                    "terminal": "3",
+                                    "at": "2025-03-23T19:20:00"
+                                },
+                                "carrierCode": "EY",
+                                "number": "216",
+                                "aircraft": {
+                                    "code": "351"
+                                },
+                                "operating": {
+                                    "carrierCode": "EY"
+                                },
+                                "duration": "PT3H25M",
+                                "id": "107",
+                                "numberOfStops": 0,
+                                "blacklistedInEU": false
+                            }
+                        ],
+                        "durationText": "6h 45m"
+                    }
+                ],
+                "price": {
+                    "currency": "SAR",
+                    "total": "687.00",
+                    "base": "342",
+                    "fees": [
+                        {
+                            "amount": "0.00",
+                            "type": "SUPPLIER"
+                        },
+                        {
+                            "amount": "0.00",
+                            "type": "TICKETING"
+                        }
+                    ],
+                    "grandTotal": "687.00",
+                    "rehlte_points": "268.50"
+                },
+                "pricingOptions": {
+                    "fareType": [
+                        "PUBLISHED"
+                    ],
+                    "includedCheckedBagsOnly": false
+                },
+                "validatingAirlineCodes": [
+                    "EY"
+                ],
+                "travelerPricings": [
+                    {
+                        "travelerId": "1",
+                        "fareOption": "STANDARD",
+                        "travelerType": "ADULT",
+                        "price": {
+                            "currency": "SAR",
+                            "total": "537.00",
+                            "base": "342.00"
+                        },
+                        "fareDetailsBySegment": [
+                            {
+                                "segmentId": "106",
+                                "cabin": "ECONOMY",
+                                "fareBasis": "ENN00H79",
+                                "brandedFare": "YBASIC",
+                                "brandedFareLabel": "ECONOMY BASIC",
+                                "class": "E",
+                                "includedCheckedBags": {
+                                    "weight": 0,
+                                    "weightUnit": "KG"
+                                },
+                                "includedCabinBags": {
+                                    "weight": 7,
+                                    "weightUnit": "KG"
+                                },
+                                "amenities": [
+                                    {
+                                        "description": "EXCESS WEIGHT SPECIAL CHARGE",
+                                        "isChargeable": true,
+                                        "amenityType": "BAGGAGE",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    },
+                                    {
+                                        "description": "FOOD AND BEVERAGE",
+                                        "isChargeable": false,
+                                        "amenityType": "MEAL",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    },
+                                    {
+                                        "description": "PRIORITY ACCESS",
+                                        "isChargeable": true,
+                                        "amenityType": "TRAVEL_SERVICES",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    },
+                                    {
+                                        "description": "STANDARD SEAT SELECTION",
+                                        "isChargeable": true,
+                                        "amenityType": "BRANDED_FARES",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "segmentId": "107",
+                                "cabin": "ECONOMY",
+                                "fareBasis": "ENN00H79",
+                                "brandedFare": "YBASIC",
+                                "brandedFareLabel": "ECONOMY BASIC",
+                                "class": "E",
+                                "includedCheckedBags": {
+                                    "weight": 0,
+                                    "weightUnit": "KG"
+                                },
+                                "includedCabinBags": {
+                                    "weight": 7,
+                                    "weightUnit": "KG"
+                                },
+                                "amenities": [
+                                    {
+                                        "description": "EXCESS WEIGHT SPECIAL CHARGE",
+                                        "isChargeable": true,
+                                        "amenityType": "BAGGAGE",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    },
+                                    {
+                                        "description": "FOOD AND BEVERAGE",
+                                        "isChargeable": false,
+                                        "amenityType": "MEAL",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    },
+                                    {
+                                        "description": "PRIORITY ACCESS",
+                                        "isChargeable": true,
+                                        "amenityType": "TRAVEL_SERVICES",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    },
+                                    {
+                                        "description": "STANDARD SEAT SELECTION",
+                                        "isChargeable": true,
+                                        "amenityType": "BRANDED_FARES",
+                                        "amenityProvider": {
+                                            "name": "BrandedFare"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fareRules": {
+                    "rules": [
+                        {
+                            "category": "EXCHANGE",
+                            "notApplicable": true
+                        },
+                        {
+                            "category": "REVALIDATION",
+                            "notApplicable": true
+                        }
+                    ]
+                },
+                "supplier": "AMADEUS",
+                "brandedFareExists": true,
+                "brandedFare": {
+                    "brandedFares": {
+                        "1": {
+                            "id": "1",
+                            "title": "Economy YBASIC",
+                            "price": "687.00",
+                            "beverage": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "",
+                                "description_en": ""
+                            },
+                            "meals": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0644\u0627 \u062a\u062a\u0648\u0641\u0631 \u0648\u062c\u0628\u0627\u062a",
+                                "description_en": "No meals available"
+                            },
+                            "cabinBaggage": {
+                                "status": true,
+                                "chargeable": false,
+                                "description_ar": "1\u0623\u0645\u062a\u0639\u0629 \u0627\u0644\u0645\u0642\u0635\u0648\u0631\u0629",
+                                "description_en": "1 Cabin baggage"
+                            },
+                            "checkedBaggage": [
+                                {
+                                    "status": true,
+                                    "chargeable": false,
+                                    "description_ar": "1\u0627\u0644\u0623\u0645\u062a\u0639\u0629 \u0627\u0644\u0645\u0633\u062c\u0644\u0629",
+                                    "description_en": "1 Checked baggage"
+                                }
+                            ],
+                            "refundable": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u063a\u064a\u0631 \u0642\u0627\u0628\u0644 \u0644\u0644\u0627\u0633\u062a\u0631\u062c\u0627\u0639",
+                                "description_en": "Non-refundable"
+                            },
+                            "changeable": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "basicSeat": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "upgradeEligibility": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "changeFee": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "refundableTicket": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "changeableTicket": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "extraLegRoomSeats": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "preferredSeats": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "cancellation": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "premiumSeat": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "milesEarned": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            },
+                            "milleageAccrual": {
+                                "status": false,
+                                "chargeable": false,
+                                "description_ar": "\u0623\u062c\u0631\u0629 \u063a\u064a\u0631 \u0642\u0627\u0628\u0644\u0629 \u0644\u0644\u062a\u063a\u064a\u064a\u0631",
+                                "description_en": "Non-changeable fare"
+                            }
+                        }
+                    },
+                    "data": [
+                        {
+                            "type": "flight-offer",
+                            "id": "1",
+                            "source": "GDS",
+                            "instantTicketingRequired": false,
+                            "nonHomogeneous": false,
+                            "oneWay": false,
+                            "isUpsellOffer": false,
+                            "lastTicketingDate": "2025-03-23",
+                            "lastTicketingDateTime": "2025-03-23",
+                            "numberOfBookableSeats": 9,
+                            "itineraries": [
+                                {
+                                    "duration": "PT6H45M",
+                                    "segments": [
+                                        {
+                                            "departure": {
+                                                "iataCode": "RUH",
+                                                "terminal": "3",
+                                                "at": "2025-03-23T10:05:00"
+                                            },
+                                            "arrival": {
+                                                "iataCode": "AUH",
+                                                "terminal": "A",
+                                                "at": "2025-03-23T12:55:00"
+                                            },
+                                            "carrierCode": "EY",
+                                            "number": "554",
+                                            "aircraft": {
+                                                "code": "32Q"
+                                            },
+                                            "operating": {
+                                                "carrierCode": "EY"
+                                            },
+                                            "duration": "PT1H50M",
+                                            "id": "106",
+                                            "numberOfStops": 0,
+                                            "blacklistedInEU": false
+                                        },
+                                        {
+                                            "departure": {
+                                                "iataCode": "AUH",
+                                                "terminal": "A",
+                                                "at": "2025-03-23T14:25:00"
+                                            },
+                                            "arrival": {
+                                                "iataCode": "DEL",
+                                                "terminal": "3",
+                                                "at": "2025-03-23T19:20:00"
+                                            },
+                                            "carrierCode": "EY",
+                                            "number": "216",
+                                            "aircraft": {
+                                                "code": "351"
+                                            },
+                                            "operating": {
+                                                "carrierCode": "EY"
+                                            },
+                                            "duration": "PT3H25M",
+                                            "id": "107",
+                                            "numberOfStops": 0,
+                                            "blacklistedInEU": false
+                                        }
+                                    ],
+                                    "durationText": "6h 45m"
+                                }
+                            ],
+                            "price": {
+                                "currency": "SAR",
+                                "total": "537",
+                                "base": "342",
+                                "fees": [
+                                    {
+                                        "amount": "0.00",
+                                        "type": "SUPPLIER"
+                                    },
+                                    {
+                                        "amount": "0.00",
+                                        "type": "TICKETING"
+                                    }
+                                ],
+                                "grandTotal": "537",
+                                "rehlte_points": "268.50"
+                            },
+                            "pricingOptions": {
+                                "fareType": [
+                                    "PUBLISHED"
+                                ],
+                                "includedCheckedBagsOnly": false
+                            },
+                            "validatingAirlineCodes": [
+                                "EY"
+                            ],
+                            "travelerPricings": [
+                                {
+                                    "travelerId": "1",
+                                    "fareOption": "STANDARD",
+                                    "travelerType": "ADULT",
+                                    "price": {
+                                        "currency": "SAR",
+                                        "total": "537.00",
+                                        "base": "342.00"
+                                    },
+                                    "fareDetailsBySegment": [
+                                        {
+                                            "segmentId": "106",
+                                            "cabin": "ECONOMY",
+                                            "fareBasis": "ENN00H79",
+                                            "brandedFare": "YBASIC",
+                                            "brandedFareLabel": "ECONOMY BASIC",
+                                            "class": "E",
+                                            "includedCheckedBags": {
+                                                "weight": 0,
+                                                "weightUnit": "KG"
+                                            },
+                                            "includedCabinBags": {
+                                                "weight": 7,
+                                                "weightUnit": "KG"
+                                            },
+                                            "amenities": [
+                                                {
+                                                    "description": "EXCESS WEIGHT SPECIAL CHARGE",
+                                                    "isChargeable": true,
+                                                    "amenityType": "BAGGAGE",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                },
+                                                {
+                                                    "description": "FOOD AND BEVERAGE",
+                                                    "isChargeable": false,
+                                                    "amenityType": "MEAL",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                },
+                                                {
+                                                    "description": "PRIORITY ACCESS",
+                                                    "isChargeable": true,
+                                                    "amenityType": "TRAVEL_SERVICES",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                },
+                                                {
+                                                    "description": "STANDARD SEAT SELECTION",
+                                                    "isChargeable": true,
+                                                    "amenityType": "BRANDED_FARES",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "segmentId": "107",
+                                            "cabin": "ECONOMY",
+                                            "fareBasis": "ENN00H79",
+                                            "brandedFare": "YBASIC",
+                                            "brandedFareLabel": "ECONOMY BASIC",
+                                            "class": "E",
+                                            "includedCheckedBags": {
+                                                "weight": 0,
+                                                "weightUnit": "KG"
+                                            },
+                                            "includedCabinBags": {
+                                                "weight": 7,
+                                                "weightUnit": "KG"
+                                            },
+                                            "amenities": [
+                                                {
+                                                    "description": "EXCESS WEIGHT SPECIAL CHARGE",
+                                                    "isChargeable": true,
+                                                    "amenityType": "BAGGAGE",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                },
+                                                {
+                                                    "description": "FOOD AND BEVERAGE",
+                                                    "isChargeable": false,
+                                                    "amenityType": "MEAL",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                },
+                                                {
+                                                    "description": "PRIORITY ACCESS",
+                                                    "isChargeable": true,
+                                                    "amenityType": "TRAVEL_SERVICES",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                },
+                                                {
+                                                    "description": "STANDARD SEAT SELECTION",
+                                                    "isChargeable": true,
+                                                    "amenityType": "BRANDED_FARES",
+                                                    "amenityProvider": {
+                                                        "name": "BrandedFare"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "fareRules": {
+                                "rules": [
+                                    {
+                                        "category": "EXCHANGE",
+                                        "notApplicable": true
+                                    },
+                                    {
+                                        "category": "REVALIDATION",
+                                        "notApplicable": true
+                                    }
+                                ]
+                            },
+                            "supplier": "AMADEUS",
+                            "brandedFareExists": true
+                        }
+                    ]
+                }
+            }
+        }
+        ],
+        "airportList": [
+            {
+                "code": "BOM",
+                "airport_name": "Mumbai-Chhatrapati Shivaji Maharaj Intl Airport -India(BOM)",
+                "city_name": "Mumbai",
+                "country_name": "India"
+            },
+            {
+                "code": "ADD",
+                "airport_name": "Addis Ababa-Addis Ababa Bole International Airport-Ethiopia(ADD)",
+                "city_name": "Addis Ababa",
+                "country_name": "Ethiopia"
+            },
+            {
+                "code": "RUH",
+                "airport_name": "Riyadh-King Khaled Intl-Saudi Arabia(RUH)",
+                "city_name": "Riyadh",
+                "country_name": "Saudi Arabia"
+            },
+            {
+                "code": "KTM",
+                "airport_name": "Kathmandu-Tribuvan Arpt-Nepal(KTM)",
+                "city_name": "Kathmandu",
+                "country_name": "Nepal"
+            },
+            {
+                "code": "HKG",
+                "airport_name": "Hong Kong-Hong Kong Intl-Hong Kong(HKG)",
+                "city_name": "Hong Kong",
+                "country_name": "Hong Kong"
+            },
+            {
+                "code": "JED",
+                "airport_name": "Jeddah-Jeddah Intl-Saudi Arabia(JED)",
+                "city_name": "Makkah-Mecca",
+                "country_name": "Saudi Arabia"
+            },
+            {
+                "code": "BAH",
+                "airport_name": "Muharraq-Bahrain Intl Arpt-Bahrain(BAH)",
+                "city_name": "Muharraq",
+                "country_name": "Bahrain"
+            },
+            {
+                "code": "DEL",
+                "airport_name": "Delhi-Delhi Indira Gandhi Intl-India(DEL)",
+                "city_name": "Delhi",
+                "country_name": "India"
+            },
+            {
+                "code": "CAI",
+                "airport_name": "Cairo-Cairo Intl Arpt-Egypt(CAI)",
+                "city_name": "Cairo",
+                "country_name": "Egypt"
+            },
+            {
+                "code": "IST",
+                "airport_name": "Istanbul-Istanbul Airport all airports-Turkey(IST)",
+                "city_name": "Istanbul",
+                "country_name": "Turkey"
+            },
+            {
+                "code": "DXB",
+                "airport_name": "Dubai-Dubai Intl Arpt-United Arab Emirates(DXB)",
+                "city_name": "Dubai",
+                "country_name": "United Arab Emirates"
+            },
+            {
+                "code": "AUH",
+                "airport_name": "Abu Dhabi-Abu Dhabi Intl Arpt-United Arab Emirates(AUH)",
+                "city_name": "Abu Dhabi",
+                "country_name": "United Arab Emirates"
+            },
+            {
+                "code": "FRA",
+                "airport_name": "Frankfurt-Frankfurt Intl-Germany(FRA)",
+                "city_name": "Frankfurt",
+                "country_name": "Germany"
+            },
+            {
+                "code": "LHR",
+                "airport_name": "London-Heathrow-United Kingdom(LHR)",
+                "city_name": "",
+                "country_name": "United Kingdom"
+            },
+            {
+                "code": "CMB",
+                "airport_name": "Colombo-Bandaranaike Intl Arpt-Sri Lanka(CMB)",
+                "city_name": "Colombo",
+                "country_name": "Sri Lanka"
+            },
+            {
+                "code": "KWI",
+                "airport_name": "Kuwait-Kuwait International Airport-Kuwait(KWI)",
+                "city_name": "Kuwait",
+                "country_name": "Kuwait"
+            },
+            {
+                "code": "DOH",
+                "airport_name": "Doha-Hamad International Airport-Qatar(DOH)",
+                "city_name": "Doha",
+                "country_name": "Qatar"
+            },
+            {
+                "code": "MCT",
+                "airport_name": "Muscat-Muscat International Airport-Oman(MCT)",
+                "city_name": "Muscat",
+                "country_name": "Oman"
+            }
+        ],
+        "aircraftList": [
+            {
+                "code": "32A",
+                "name": "AIRBUS A320 (SHARKLETS)"
+            },
+            {
+                "code": "7M8",
+                "name": "BOEING 737 MAX 8"
+            },
+            {
+                "code": "7M9",
+                "name": "BOEING 737 MAX 9"
+            },
+            {
+                "code": "74H",
+                "name": "BOEING 747-8"
+            },
+            {
+                "code": 351,
+                "name": "AIRBUS A350-1000"
+            },
+            {
+                "code": "32N",
+                "name": "AIRBUS A320NEO"
+            },
+            {
+                "code": 330,
+                "name": "AIRBUS INDUSTRIE A330"
+            },
+            {
+                "code": "32Q",
+                "name": "AIRBUS A321NEO"
+            },
+            {
+                "code": 332,
+                "name": "AIRBUS A330-200"
+            },
+            {
+                "code": 333,
+                "name": "AIRBUS A330-300"
+            },
+            {
+                "code": 773,
+                "name": "BOEING 777-300"
+            },
+            {
+                "code": "32S",
+                "name": "AIRBUS INDUSTRIE A318\/A319\/A320\/A321"
+            },
+            {
+                "code": 359,
+                "name": "AIRBUS A350-900"
+            },
+            {
+                "code": 777,
+                "name": "BOEING 777-200\/300"
+            },
+            {
+                "code": 737,
+                "name": "BOEING 737 ALL SERIES PASSENGER"
+            },
+            {
+                "code": 738,
+                "name": "BOEING 737-800"
+            },
+            {
+                "code": "73H",
+                "name": "BOEING 737-800 (WINGLETS)"
+            },
+            {
+                "code": 320,
+                "name": "AIRBUS A320"
+            },
+            {
+                "code": 321,
+                "name": "AIRBUS A321"
+            },
+            {
+                "code": "DH8",
+                "name": "DE HAVILLAND DHC-8 DASH 8"
+            },
+            {
+                "code": 346,
+                "name": "AIRBUS A340-600"
+            },
+            {
+                "code": 787,
+                "name": "787  ALL SERIES PASSENGER"
+            },
+            {
+                "code": "77W",
+                "name": "BOEING 777-300ER"
+            },
+            {
+                "code": 788,
+                "name": "BOEING 787-8"
+            },
+            {
+                "code": 789,
+                "name": "BOEING 787-9"
+            }
+        ],
+        "airlineList": [
+            {
+                "code": "QR",
+                "name": "Qatar Airways",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/QR.png"
+            },
+            {
+                "code": "WY",
+                "name": "Oman Air",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/WY.png"
+            },
+            {
+                "code": "SV",
+                "name": "Saudi Arabian Airlines",
+                "logo": "https:\/\/demoadmin.rehlte.com\/storage\/airlineLogo\/SV.jpg"
+            },
+            {
+                "code": "EK",
+                "name": "Emirates",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/EK.png"
+            },
+            {
+                "code": "MS",
+                "name": "Egyptair",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/MS.png"
+            },
+            {
+                "code": "AI",
+                "name": "Air India",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/AI.png"
+            },
+            {
+                "code": "H1",
+                "name": "Hahn Air Systems",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/H1.png"
+            },
+            {
+                "code": "KU",
+                "name": "Kuwait Airways",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/KU.png"
+            },
+            {
+                "code": "6E",
+                "name": "IndiGo",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/6E.png"
+            },
+            {
+                "code": "RA",
+                "name": "Nepal Airlines Corporation",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/RA.png"
+            },
+            {
+                "code": "ET",
+                "name": "Ethiopian Airlines",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/ET.png"
+            },
+            {
+                "code": "H9",
+                "name": "Himalaya Airlines",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/H9.png"
+            },
+            {
+                "code": "EY",
+                "name": "Etihad Airways",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/EY.png"
+            },
+            {
+                "code": "FZ",
+                "name": "flydubai",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/FZ.png"
+            },
+            {
+                "code": "CX",
+                "name": "Cathay Pacific Airways",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/CX.png"
+            },
+            {
+                "code": "UL",
+                "name": "SriLankan Airlines",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/UL.png"
+            },
+            {
+                "code": "TK",
+                "name": "Turkish Airlines Inc",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/TK.png"
+            },
+            {
+                "code": "LH",
+                "name": "Deutsche Lufthansa AG",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/LH.png"
+            },
+            {
+                "code": "GF",
+                "name": "",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/GF.png"
+            },
+            {
+                "code": "BA",
+                "name": "British Airways",
+                "logo": "https:\/\/demoadmin.rehlte.com\/assets\/images\/airlineLogo\/BA.png"
+            }
+        ]
+        } 

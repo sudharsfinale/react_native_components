@@ -1,14 +1,13 @@
 import { View, Text } from "react-native";
 import React, { useState } from "react";
 import { RangeSlider } from "@/components/RangeSlider";
+import Header from "@/components/Header";
 
 const RangeSliderContainer = () => {
   const [values, setValues] = useState<[number, number]>([25, 75]);
   return (
     <View>
-      <Text style={{ color: "dodgerblue", padding: 25, fontSize: 20 }}>
-        RangeSliderContainer
-      </Text>
+      <Header headerTitle="Range Slider" />
       <View
         style={{
           alignItems: "center",
