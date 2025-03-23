@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 
 const RangeSliderWithSteps = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor: "white" }}>
       <Header headerTitle="Range Slider(with steps)" />
       <InputRange
         min={1950}
