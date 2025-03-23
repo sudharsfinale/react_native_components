@@ -107,10 +107,10 @@ const InputRange = ({ min, max, title, steps, onValueChange }) => {
     };
   });
   return (
-    <View>
-      <View style={styles.header}>
+    <View style={{ backgroundColor: "white", flex: 1 }}>
+      {/* <View style={styles.header}>
         <Text style={styles.title}>{title}</Text>
-      </View>
+      </View> */}
       <View style={styles.rangeContainer}>
         <View style={styles.labelsContainer}>
           <AnimatedTextInput
@@ -143,9 +143,9 @@ const InputRange = ({ min, max, title, steps, onValueChange }) => {
 const styles = StyleSheet.create({
   header: {
     backgroundColor: "#eee",
-    borderTopWidth: 1,
+    // borderTopWidth: 1,
     borderColor: "#cccdb2",
-    borderBottomWidth: 1,
+    // borderBottomWidth: 1,
     paddingHorizontal: 20,
     paddingVertical: 10,
   },
@@ -155,9 +155,9 @@ const styles = StyleSheet.create({
   },
   rangeContainer: {
     padding: 20,
-    backgroundColor: "white",
+    // backgroundColor: "white",
     borderColor: "#cccdb2",
-    borderBottomWidth: 1,
+    // borderBottomWidth: 1,
   },
   labelsContainer: {
     width: WIDTH,

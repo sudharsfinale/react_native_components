@@ -1,6 +1,7 @@
 import ItemSeperatorComponent from "@/components/ItemSeperatorComponent";
 import { useRouter } from "expo-router";
 import { FlatList, Pressable, Text, View } from "react-native";
+import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
 export default function Index() {
   const components = [
@@ -31,13 +32,30 @@ export default function Index() {
         renderItem={({ item }) => {
           return (
             <Pressable
-              style={{ padding: 12, borderColor: "lightblue", borderWidth: 1 }}
+              style={{
+                padding: 12,
+                flexDirection: "row",
+                alignItems: "center",
+                justifyContent: "space-between",
+                backgroundColor: "white",
+                borderRadius: 12,
+                shadowColor: "#000",
+                shadowOffset: { width: 0, height: 1 },
+                shadowOpacity: 0.1,
+                shadowRadius: 0.5,
+                elevation: 5,
+              }}
               onPress={() => {
                 //@ts-ignore
                 router.push(`/${item.path}`);
               }}
             >
-              <Text>{item.componentName}</Text>
+              <Text style={{ fontSize: 16 }}>{item.componentName}</Text>
+              <MaterialIcons
+                name="keyboard-arrow-right"
+                size={24}
+                color="black"
+              />
             </Pressable>
           );
         }}
