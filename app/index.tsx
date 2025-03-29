@@ -9,6 +9,7 @@ export default function Index() {
     { componentName: "Range Slider With Steps", path: "rangeSliderWithSteps" },
     { componentName: "TimeLine", path: "timeline" },
     { componentName: "Bouncy Checkbox", path: "bouncy_checkbox" },
+    { componentName: "Custom Accordion", path: "accordion" },
   ]; //path name should match the folder name
   const router = useRouter();
   return (
