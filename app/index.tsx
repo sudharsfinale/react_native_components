@@ -10,6 +10,7 @@ export default function Index() {
     { componentName: "TimeLine", path: "timeline" },
     { componentName: "Bouncy Checkbox", path: "bouncy_checkbox" },
     { componentName: "Custom Accordion", path: "accordion" },
+    { componentName: "BottomSheet", path: "bottomSheet" },
   ]; //path name should match the folder name
   const router = useRouter();
   return (
