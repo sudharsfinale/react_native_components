@@ -35,3 +35,12 @@ Native components, both custom-built and from libraries.
     />
   </div>
 </div>
+ <div style="display: flex;flex-direction: column;margin-right: 12px">
+    <div style="margin-bottom: 12px;">Component 4</div>
+    <img
+      width="308"
+      alt="Image"
+      src="https://github.com/user-attachments/assets/dadf6bc8-37c7-40d8-9ad2-bde197ae90f9"
+    />
+  </div>
+</div>
