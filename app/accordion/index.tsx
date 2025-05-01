@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 
 export default function AccordionContainer() {
   return (
-    <SafeAreaView style={styles.container}>
+    <>
       <Header headerTitle="Accordion" />
       <ScrollView
         style={styles.container}
@@ -41,7 +41,7 @@ export default function AccordionContainer() {
           </View>
         </Accordion>
       </ScrollView>
-    </SafeAreaView>
+    </>
   );
 }
 
